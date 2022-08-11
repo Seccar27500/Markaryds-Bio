@@ -1,0 +1,106 @@
+body
+{
+    background: linear-gradient(green, black, limegreen);
+}
+
+#linje_runt
+{
+width: 1000px;
+height: 1100px;
+border: 5px solid #0DFE14;
+margin-left: auto;
+margin-right: auto;
+background-color: #000000;
+border-radius: 30px;
+}
+.välkommen
+{
+color: #3C9F00;
+font-size: 40px;
+text-align: center;
+line-height: 50px;
+}
+.knapp
+{
+appearance: button;
+background-color: #000000;
+display: inline-block;
+border: 5px solid #0DFE14;
+font-size: 60px;
+color: #3C9F00;
+padding: 5px 30px;
+text-align: center;
+margin: 20px 22px;
+border-radius: 30px;
+}
+
+.knapp:hover {
+    background-color: #0DFE14;
+    color: #000000;
+}
+
+.om_ram
+{
+width: 900px;
+height: 700px;
+border: 5px solid #0DFE14;
+margin-left: auto;
+margin-right: auto;
+background-color: #000000;
+border-radius: 30px;
+}
+.om
+{
+color: #3C9F00;
+font-size: 30px;
+text-align: center;
+}
+table, td, th
+{
+border: 1px solid #0DFE14;
+padding: 10px;
+font-size: 30px;
+border-collapse: collapse;
+color: #3C9F00;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+}
+
+.länk
+{
+
+position: absolute;
+left: 750px;
+top: 900px;
+color: #3C9F00;
+font-size: 50px;
+}
+
+#changeToEnglish {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 1400px;
+    border: 3px solid #0DFE14;
+    border-radius: 10px;
+}
+
+#changeToEnglish:hover {
+    border: 3px solid #000000;
+}
+
+#changeToSwedish {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 1350px;
+    border: 3px solid #0DFE14;
+    border-radius: 10px;
+}
+
+#changeToSwedish:hover {
+    border: 3px solid #000000;
+}

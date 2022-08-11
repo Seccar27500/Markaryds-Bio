@@ -1,0 +1,101 @@
+body
+        {
+        background: linear-gradient(green, black, limegreen);
+        }
+
+        #linje_runt
+        {
+        width: 1000px;
+        height: 1000px;
+        border: 5px solid #0DFE14;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #000000;
+        border-radius: 30px;
+        }
+        .välkommen
+        {
+        color: #3C9F00;
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+        }
+
+        .knapp
+        {
+        appearance: button;
+        background-color: #000000;
+        display: inline-block;
+        border: 5px solid #0DFE14;
+        font-size: 60px;
+        color: #3C9F00;
+        padding: 5px 30px;
+        text-align: center;
+        margin: 20px 22px;
+        border-radius: 30px;
+        }
+        .knapp:hover {
+                background-color: #0DFE14;
+                color: #000000;
+        }
+
+        .knappENG
+        {
+        appearance: button;
+        background-color: #000000;
+        display: inline-block;
+        border: 5px solid #0DFE14;
+        font-size: 60px;
+        color: #3C9F00;
+        padding: 5px 30px;
+        text-align: center;
+        margin: 20px 11px;
+        border-radius: 30px;
+        }
+        .knappENG:hover {
+                background-color: #0DFE14;
+                color: #000000;
+        }
+
+
+        .bild
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #0DFE14;
+        border-radius: 30px;
+        }
+
+        .bild:hover {
+                border: 5px solid #000000;
+        }
+
+        #changeToEnglish {
+                height: 20px;
+                width: 30px;
+                position: absolute;
+                top: 30px;
+                left: 1400px;
+                border: 3px solid #0DFE14;
+                border-radius: 10px;
+        }
+
+        #changeToEnglish:hover {
+                border: 3px solid #000000;
+        }
+
+        #changeToSwedish {
+                height: 20px;
+                width: 30px;
+                position: absolute;
+                top: 30px;
+                left: 1350px;
+                border: 3px solid #0DFE14;
+                border-radius: 10px;
+        }
+
+        #changeToSwedish:hover {
+                border: 3px solid #000000;
+        }
+

@@ -1,0 +1,48 @@
+body
+        {
+        background-color: #303030;
+        }
+
+        #linje_runt
+        {
+        width: 1000px;
+        height: 700px;
+        border: 5px solid #0DFE14;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #000000;
+        }
+        .välkommen
+        {
+        color: #3C9F00;
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+        }
+        .knapp
+        {
+        appearance: button;
+        background-color: #000000;
+        display: inline-block;
+        border: 5px solid #0DFE14;
+        font-size: 60px;
+        color: #3C9F00;
+        padding: 5px 30px;
+        text-align: center;
+        margin: 20px 22px;
+        }
+        .om_ram
+        {
+        width: 900px;
+        height: 200px;
+        border: 5px solid #0DFE14;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #000000;
+        }
+        .om
+        {
+        color: #3C9F00;
+        font-size: 30px;
+        text-align: center;
+        }
